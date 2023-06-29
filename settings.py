@@ -1,0 +1,4 @@
+# Game settings
+#RES = WIDTH, HEIGHT = 1600, 900
+RES = WIDTH, HEIGHT = 800, 450
+FPS = 60
