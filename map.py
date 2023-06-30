@@ -32,5 +32,6 @@ class Map:
     # Display map on screen
     def draw(self):
         # Iterate over world map, draw each element as unfilled square
-        [pg.draw.rect(self.game.screen, 'darkgray', (pos[0] * 50, pos[1] * 50, 50, 50), 2)
+        #[pg.draw.rect(self.game.screen, 'darkgray', (pos[0] * 50, pos[1] * 50, 50, 50), 2)  # REVERT TO THIS HALF-RES IF CURRENT RESOLUTION FAILS
+        [pg.draw.rect(self.game.screen, 'darkgray', (pos[0] * 70, pos[1] * 70, 70, 70), 2)
         for pos in self.world_map]
